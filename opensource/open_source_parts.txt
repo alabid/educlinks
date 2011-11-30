@@ -1,0 +1,43 @@
+PARTS OF EDUCLINKS THAT I CAN OPEN-SOURCE
+=========================================
+1. The drop down menu. Remember to write tons and tons of documentation.
+   Start tomorrow.
+   Make a jquery plugin (that plugins very easily). The plugin should be
+   able to create a simple drop down menu in some formats:
+   i) The top-bar navigation format (or horizontal)--
+      Like the navigation that appears on top of a lot of sites.
+      Make it html5 if supported by the page (or the user could put a 
+      flag to indicate html5 support), else just use html4 or xhtml1.
+   ii) The side bar navigations (or vertical).
+   iii) Standalone drop down menus.
+   iv) Transparent ones.
+   Resources:
+   http://www.sooperthemes.com/open-source/jquery/jquery-sooperfish-dropdown-menus
+   http://users.tpg.com.au/j_birch/plugins/superfish/
+   vidmuster.com's accordion drop-down menus.
+   http://slodive.com/web-development/best-jquery-dropdown-menus/
+   DropKick: http://jamielottering.github.com/DropKick/
+
+2. Dropping pictures into drop down menus and accordions and animating them
+   according, as in vidmuster.com
+
+2. PHP library to help include header, menu, footer on every page. 
+   Resources:
+   http://www.apaddedcell.com/how-automatically-include-your-header-navigation-and-footer-every-page
+   
+3. AJAX login and register using php/jquery. And for other functions too
+   aside authentication.
+   Resources:
+   Grooveshark.com
+   instant.fm
+   http://www.ibm.com/developerworks/webservices/library/ws-simplelogin/index.html?ca=drs-
+
+4. Useful queries for querying web databases.
+   Resources: educlinks.com/get_rec.php
+
+5. Documentation and writings on how to do recaptcha using the google
+   recaptchalib using educlinks as a case study.
+
+6. Image display/resizing/optimizing within image tags using php+jquery.
+
+

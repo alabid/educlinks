@@ -46,7 +46,7 @@ $.fn.maxHeight = function() {
  //creates a dropdown menu    
     $.fn.createDropDown = function(arr_hor) {
         var result;
-        result = "<div class= 'dropdown'><ul>"
+        result = "<div class= 'dropdown'><ul>";
     
         $.each(arr_hor, function (text, href) {
             result += "<li><a href='" + href + "'>" + text + "</a></li>" ;
@@ -79,7 +79,7 @@ $.fn.maxHeight = function() {
         
         dropdown.css(css_rules);
         return dropdown;
-    }
+    };
 $(document).ready(function() {  
         $("#top_nav_bar li a").hover (
              function() {
@@ -95,7 +95,7 @@ $(document).ready(function() {
        
         var arr_hor = {
         "Profile":"profile.php",
-        "Sign Out": "home.php?logout",          
+        "Sign Out": "home.php?logout"          
                 };
                 
                       
