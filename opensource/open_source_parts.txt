@@ -1,43 +1,74 @@
-PARTS OF EDUCLINKS THAT I CAN OPEN-SOURCE
-=========================================
-1. The drop down menu. Remember to write tons and tons of documentation.
-   Start tomorrow.
-   Make a jquery plugin (that plugins very easily). The plugin should be
-   able to create a simple drop down menu in some formats:
-   i) The top-bar navigation format (or horizontal)--
-      Like the navigation that appears on top of a lot of sites.
-      Make it html5 if supported by the page (or the user could put a 
-      flag to indicate html5 support), else just use html4 or xhtml1.
-   ii) The side bar navigations (or vertical).
-   iii) Standalone drop down menus.
-   iv) Transparent ones.
-   Resources:
-   http://www.sooperthemes.com/open-source/jquery/jquery-sooperfish-dropdown-menus
-   http://users.tpg.com.au/j_birch/plugins/superfish/
-   vidmuster.com's accordion drop-down menus.
-   http://slodive.com/web-development/best-jquery-dropdown-menus/
-   DropKick: http://jamielottering.github.com/DropKick/
+FIRST WEEK OPEN-SOURCE STUFF
+============================
 
-2. Dropping pictures into drop down menus and accordions and animating them
-   according, as in vidmuster.com
+HEAVY DOCUMENTATION PLEASE!!!!!!!!
+MATTERS MORE THAN JUST THE CODE YOUR WRITE!!!!
+AND ALSO MAKE SOME EFFORT TO MARKET AND ADVERTISE IT!!!
 
-2. PHP library to help include header, menu, footer on every page. 
-   Resources:
-   http://www.apaddedcell.com/how-automatically-include-your-header-navigation-and-footer-every-page
-   
-3. AJAX login and register using php/jquery. And for other functions too
-   aside authentication.
-   Resources:
-   Grooveshark.com
-   instant.fm
-   http://www.ibm.com/developerworks/webservices/library/ws-simplelogin/index.html?ca=drs-
+1. Dropping pictures into drop down menus and accordions and animating them
+   accordingly, as in vidmuster.com. 
+   This will work when they include your package, jquery, and the jquery
+   drop-down package too.
+   So the includes should eventually be like this (sort of):
+   <script type="text/javascript" src="[...]jquery.js"></script>
+   <script type="text/javascript" src="[...]jquery.bla.js"></script>
+   <script type="text/javascript" src="[...]drop-accordion"></script>
+   ============== END OF INCLUDES ================================
+   And the drops should work like this:
 
-4. Useful queries for querying web databases.
+     +-----+---------+---------+--------+
+     |     |         |         |        |
+     |     |         |         |        |
+     |     |         |         |        |
+     |     |         |         |        |
+     |     |         |         |        |
+     |     |         |         |        |
+     +-----+---------+---------+--------+
+   If only one image was copied to the accordion menu tab above, then 
+   the image should fill the first column which is the first <td>
+   element in the <tr> shown above.
+
+   So the user must leave a <td> in a <tr> so that if fills that <td> or else
+   it just fills the whole tr.
+   If the user does not use <tr> at all, it just fills the whole element 
+   there.
+   Gotta implement this. No one else has done this. I can do this and all
+   things with God who has been helping and will continue to help me.
+   In God I and my family trust.
+   What can people do with this:
+   1) Create a table of images only (without the accordion facility)
+   for your users. And drop images into it.
+   2) Do 1) but should have accordion support.
+   3) Create a table of images in an accordion with other things in the 
+   table.
+   2) Make playlists easily.
+   3) Use ordinary accordions without drag-and-drop and image features.
+   4) Store data associated with the image within the div element that	
+   you make draggable-and-droppable so that the info. can be displayed
+   at every row of the table.
+   5) Tweak as appropriate. Make it serve vidmuster's purpose as much as
+   possible. Use CSS3 with CSS2 fallback. Use HTML5 with fallback too.
+   Maybe provide the other forms of html code and also the other forms of
+   css3 code. But just put HTML5 as an aside.
+   done!! You still need to write a lot of documentation for this though.
+
+2. Next, vidmuster. Maybe until you leave.
+   jQuery + PHP. Do only what's necessary and be modular. Start early too.
+
+4. PHP redirect library. Specify a bunch of real urls and their mappings to
+   the virtual urls on a page as in Django python framework.
+ 
+5. You could implement any of these in php and ship the code:
+   https://docs.djangoproject.com/en/1.3/#other-batteries-included
+Don't add until you finish this before the 17th!
+DOCUMENTATION AND WRITINGS
+==========================
+1. Useful queries for querying web databases.
    Resources: educlinks.com/get_rec.php
+   very useful.
 
-5. Documentation and writings on how to do recaptcha using the google
+2. Documentation and writings on how to do recaptcha using the google
    recaptchalib using educlinks as a case study.
-
-6. Image display/resizing/optimizing within image tags using php+jquery.
+   very useful.
 
 
