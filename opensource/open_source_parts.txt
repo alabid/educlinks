@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 FIRST WEEK OPEN-SOURCE STUFF
 ============================
 
@@ -70,5 +71,8 @@ DOCUMENTATION AND WRITINGS
 2. Documentation and writings on how to do recaptcha using the google
    recaptchalib using educlinks as a case study.
    very useful.
+=======
+
+>>>>>>> 5b392c358a69bf98018e06f285223e2ba536767e
 
 
